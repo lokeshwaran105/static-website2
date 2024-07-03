@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: whitesmoke;
+    font-family: 'Nunito Sans';
+}
+
+
+.nav-bar{
+    height: 80px;
+    width: 100%;
+    padding: 10 10px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+}
+
+.nav-bar img{
+    height: 80px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.left{
+    display: flex;
+    margin-right: 250px;
+}
+
+.nav-menu{
+    list-style-type: none;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu li{
+    margin-right: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.nav-menu li:hover{
+    background-color: gainsboro;
+}
+
+.btn{
+    margin-right: 5px;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.book{
+    background-color: #f6b719;
+}
+
+.portal{
+    background-color: #1f3966;
+}
+
+.caption{
+    font-size: 21px;
+    text-align: center;
+    padding: 15px;
+}
+
+.container1{
+    margin: 25px auto;
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(90deg,rgba(24,56,102,1) 55%,rgba(162,174,194,1) 88%,rgba(245,247,250,1) 100%);
+}
+
+.content{
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+}
+
+.title1{
+    color: #ffc107;
+    font-weight: bold;
+}
+
+.title2{
+    font-size: 40px;
+}
+
+.content-items{
+    margin-bottom:20px;
+}
+
+.description{
+    margin-top: 15px;
+    width: 590px;
+    font-size: 20px;
+}
+
+.detail{
+    display: flex;
+}
+
+.detail-row{
+    /* border-right: 1px solid white; */
+    border-right: 1px solid white;
+    padding: 5px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detail-unit{
+    color: #ffc107;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.detail-title{
+    font-weight:500;
+    font-size: 18px;
+}
+
+.rating{
+    margin-top: 10px;
+    width: 150px;
+    text-align: center;
+    display: flex;
+}
+
+.ratings{
+    margin-right: 10px;
+}
+
+.rat{
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.rat-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews{
+    font-size: 12px;
+    color: gray;
+    text-decoration: underline;
+}
+
+.content-button{
+    margin-top: 30px;
+}
+
+.content-btn{
+    color: white;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border-style: none;
+    background-color: #f6b719;
+    margin: 9px;
+}
+
+.watch{
+    background-color: #337ab7;
+}
+
+.content-img{
+    position: absolute;
+    width: 450px;
+    top: 40px;
+    right: 30px;
+}
+
+.app-name{
+    text-align: center;
+    font-size: 40px;
+    margin: 50px 0;
+}
+
+.card{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.card-content{
+    margin-right: 25px;
+    min-height: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+
+.card-title{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+.card-description{
+    text-align: left;
+    font-size: 23px;
+    font-weight: normal;
+    width: 450px;
+    margin: 25px 0;
+}
+
+.point-title{
+    margin-top: 20px;
+    text-align: left;
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+.card-points li img{
+    margin-right: 10px;
+}
+
+.card-points li{
+    list-style-type: none;
+    font-size: 20px;
+    text-align: left;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.card2{
+    margin-bottom: 50px;
+}
+
+.container2{
+    background-color: white;
+    height: 100px;
+}
